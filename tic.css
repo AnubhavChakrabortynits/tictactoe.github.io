@@ -1,0 +1,169 @@
+
+body{
+    
+    
+    background-image: url('https://images.unsplash.com/photo-1611996575749-79a3a250f948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60');
+    background-size: cover;
+}
+
+
+#nav{
+    background-image: linear-gradient(red,yellow);
+    height:7vh ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:10px solid black;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 5vh;
+   
+
+}
+#gamecontainer{
+    
+    border:20% double whitesmoke;
+    display: grid;
+    width: 70vw;
+    margin:5vw;
+    grid-template-rows: 25vh;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 25vh;
+}
+.box{
+    color: wheat;
+    border: 5px double yellow;
+    background-color: black;
+   text-align: center;
+    position: relative;
+    
+}
+.text{
+    font-size:400%;
+
+    position: absolute;
+    left:40%;
+    top:25%;
+    
+    margin: auto;
+    
+
+    }
+    #status{
+        border:10px double purple;
+        width:15% ;
+        height:50vh;
+        position:absolute;
+        right:2%;
+        top:40%;
+        font-weight: 900;
+        text-align: center;
+        font-style: italic;
+        background-image: linear-gradient(violet,pink,yellow)
+        ;
+        
+
+    }
+    #status div img{
+        width:85% ;
+        height:30vh;
+        top:35%;
+        right:7%;
+        position: absolute;
+        border: 5px double crimson;
+        
+
+    }
+    #reset{
+        position:absolute;
+        right:6%;
+        top:100%; 
+    }
+    #reset:hover{
+        background-color:aqua;
+        border: 2px double purple;
+        border-radius: 50px;
+    }
+    #line{
+        width: 70vw;
+        height:3px;
+        background-color: blueviolet;
+        position:absolute;
+    }
+
+div:hover{
+         background-color:grey;
+    }
+@media (max-width:492px){
+    #nav{
+        background-color: yellow;
+        height:7vh ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border:2px solid black;
+        font-weight: 900;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 5vh;
+    
+    }
+    #gamecontainer{
+        
+        border:20% double whitesmoke;
+        display: grid;
+        width: 70vw;
+        margin: 4vw;
+        grid-template-rows: 25vh;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 25vh;
+    }
+    .box{
+        color: wheat;
+        border: 5px double yellow;
+        background-color: black;
+       text-align: center;
+        position: relative;
+        
+    }
+    
+    .text{
+        font-size:300%;
+    
+        position: absolute;
+        left:30%;
+        top:25%;
+        
+        margin: auto;
+        
+    
+        }
+        #status{
+            border:10px double purple;
+            width:15% ;
+            height:30vh;
+            position:absolute;
+            right:1%;
+            top:40%;
+            font-weight: 900;
+            font-size: small;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+             text-align: justify;
+        }
+        #line{
+            width: 70vw;
+            height:3px;
+            background-color: blueviolet;
+        }
+        main div:hover{
+            background-color:grey; }
+
+            #reset{
+                position:absolute;
+                right:1%;
+                top:90%; 
+            }  
+img{
+    
+  display: none;
+}
+
+}
