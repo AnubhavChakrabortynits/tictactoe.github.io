@@ -1,6 +1,6 @@
 # tictactoe.github.io
 
-this is tic tac toe web application amde using html css and javascript
+this is tic tac toe web application amde using html css and vanilla javascript
 
 
 link:
